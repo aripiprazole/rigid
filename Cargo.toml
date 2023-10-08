@@ -1,0 +1,15 @@
+[package]
+name = "rigid"
+version = "0.1.0"
+edition = "2021"
+authors = ["Gabrielle Guimarães de Oliveira", "Sofia da Silva Rodrigues"]
+license = "MIT"
+documentation = "https://github.com/aripiprazole/rigid"
+keywords = ["incremental", "parsing", "zu", "programming-language"]
+categories = ["parsing", "compilers", "text-editors"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[dependencies]
+petgraph = "0.6.4"
+log = "0.4.14"
+env_logger = "0.10.0"
